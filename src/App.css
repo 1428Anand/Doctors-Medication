@@ -1,0 +1,243 @@
+#home{
+  background-image: url('../public/d3.jpg');
+  height: 550px;
+  background-size: cover;
+  position: relative;
+}
+#home2{
+  background-image: url('../public/medbackground.avif');
+  height: 550px;
+  background-size: cover;
+  justify-content: center;
+  margin: 4%;
+  border-radius: 20px;
+  text-align: center;
+  color: rgb(16, 175, 175);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#home2>p{
+  font-size: 20px;
+}
+#home>button{
+  float: right;
+  margin: 2%;
+}
+.dropdown-menu{
+  background-color: rgb(16, 175, 175);
+  color: white;
+  padding: 1%;
+}
+.dropdown-menu>li:hover{
+  cursor: pointer;
+  background-color: rgb(24, 204, 204);
+}
+.welcome{
+  position: absolute;
+  top: 58%;
+  font-family: cursive;
+  color: rgb(16, 175, 175);
+  font-size: 30px;
+}
+#home:hover .welcome{
+  font-size: 40px;
+  transition: .6s;
+  left: 25%;
+}
+#footer{
+  background-color: rgb(16, 175, 175);
+  /* color: white; */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* padding: 4%; */
+}
+
+#login{
+  background-image: url('../public/doclogin.jpg');
+  height: 550px;
+  background-size: cover;
+  position: relative;
+}
+#login>button{
+  margin: 2%;
+  font-family: cursive;
+}
+.loginform{
+  width: 39%;
+  background-color: inherit;
+  text-align: center;
+  padding-top: 2%;
+  color: aqua;
+  font-family: cursive;
+
+}
+.login-input{
+  color: white;
+  border: none;
+  background: inherit;
+  border-bottom: 1px solid blue;
+}
+.login-input:focus{
+  color: white;
+}
+::placeholder{
+  color: black;
+  font-size: 12px;
+}
+.loginform>form>a{
+  font-size: 12px;
+}
+#profile{
+  /* background-image: url('../public/d2.jpg');
+  background-size: cover; */
+  font-family: cursive;
+  color: blue;
+}
+#profile>button{
+  margin: 2%;
+}
+.profilediv{
+  border: 1px solid white;
+  border-radius: 6%;
+  margin: 13px;
+  background-color: rgb(195, 240, 240);
+}
+#dprofile{
+  background-image: url('../public/medbackground.avif');
+  background-size: cover;
+  font-family: cursive;
+  color: blue;
+  text-align: center;
+}
+.dprofilel{
+  cursor: pointer;
+}
+#query{
+  background-image: url('../public/d1.jpg');
+  height: 550px;
+  background-size: cover;
+  font-family: cursive;
+  color: blue;
+}
+#query>button{
+  margin: 2%;
+}
+#query>form{
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  text-align: center;
+}
+#querypage{
+  background-image: url('../public/d1.jpg');
+  height: 550px;
+  background-size: cover;
+  font-family: cursive;
+  color: blue;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 4%;
+  overflow: scroll;
+}
+#querypage>button{
+  font-family: cursive;
+  margin: 2%;
+}
+table{
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+td,tr,th{
+  border: 1px solid black;
+}
+#patientlist{
+  color: blue;
+}
+#patientlist>button{
+  margin: 2%;
+}
+#header{
+  background-color: rgb(16, 175, 175);
+  color: white;
+  font-family: cursive;
+  padding: 1.5%;
+}
+#navbar>a{
+  margin-left: 5%;
+}
+#navbar>a:hover{
+  cursor: pointer;
+}
+.patient-d{
+  text-align: center;
+  padding-top: 3%;
+  font-size: 35px;
+}
+#dashboard{
+  background-image: url('../public/medbackground.avif');
+  background-size: cover;
+  font-family: cursive;
+  color: blue;
+  text-align: center;
+}
+.firstcard{
+  width: 40%;
+  margin-top: 5%;
+  border: none;
+  background-color: rgb(130, 236, 236);
+}
+.firstcard:hover{
+  margin-bottom: 2%;
+  margin-top: 2%;
+  box-shadow: 8px 0 8px 2px rgb(130, 236, 236);
+ transition: 0.7s;
+ background-color: white;
+}
+.dashbtn{
+  padding: 2%;
+  border: none;
+  background-color: rgb(130, 236, 236);
+  font-family: cursive;
+  color: blue;
+  border-radius: 20px;
+}
+.firstcarddiv{
+  margin-left: 60px;
+}
+.link4>a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
+}
+.link4>a:hover{
+  color: blue;
+  font-size: 23px;
+  transition: 1s;
+}
+.image3 img{
+border-radius: 20px;
+margin: 1%;
+}
+#prescription{
+  background-image: url('../public/doclogin.jpg');
+  height: 550px;
+  background-size: cover;
+  position: relative;
+}
+#prescription>form{
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  background-color: white;
+  border: 1px solid white;
+  padding: 1.5%;
+  border-radius: 20px;
+  line-height: 35px;
+  font-family: cursive;
+  width: 35%;
+  text-align: center;
+}
+.form-input{
+  border: none;
+  border-bottom: 1px solid blue ;
+}
